@@ -1,18 +1,153 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello, World</title>
-  <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yongjie Han</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background: #34495e;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-size: 1.8em;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .publication-item {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        placeholder{
+            display: block;
+            height: 150px;
+        }
+    </style>
 </head>
-
 <body>
 
-  <p>Hello world!</p>
+    <header>
+        <h1>Yongjie Han</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <placeholder></placeholder>
+        </section>
+
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2 class="section-title">Publications</h2>
+            <placeholder></placeholder>
+
+<!--            <div class="publication-item">-->
+<!--                <strong>[Last Name, First Initial.]</strong>, [Co-author(s)]. (Year). <em>Title of Paper</em>. Journal Name, Volume(Issue), Pages. <a href="[DOI or link]">[DOI]</a>-->
+<!--            </div>-->
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>
+                Email: <a href="mailto:[hanyongjie@stu.pku.edu.cn]">hanyongjie@stu.pku.edu.cn</a><br>
+            </p>
+
+            <p>
+                Follow me on:
+                <a href="https://github.com/yongjiehan" target="_blank"><i class="fab fa-github"></i></a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; All rights reserved.</p>
+        <p>
+            <a href="#top">Back to Top</a>
+        </p>
+    </footer>
 
 </body>
-
 </html>

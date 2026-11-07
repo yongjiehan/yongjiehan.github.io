@@ -1,31 +1,25 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.url == '/' %}{{ site.title | escape }}{% else %}{{ page.title | escape }} | {{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+    <main class="site-main">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <small>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | escape }}</small>
+    </footer>
   </body>
 </html>

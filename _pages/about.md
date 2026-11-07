@@ -13,8 +13,8 @@ redirect_from:
 
 ## Work in Progress
 
-**Divide the Empire**<br>
-Draft and slides available upon request.
+*Divide the Empire*<br>
+[Draft and slides available upon request.]
 
 ## Education
 

@@ -17,14 +17,13 @@ Political Economy, Economic History, Science of Science.
 
 ## Education
 
-B.A. in Economics, Peking University<br>
-2024-2028 (Expected)
+B.A. in Economics, Peking University, 2024-2028 (Expected)
 
 ## Work in Progress
 
 Han, Yongjie, *Divide the Empire*. Work in progress.<br>
 Draft available upon request.<br>
-[Draft PDF](https://www.dropbox.com/scl/fi/ojg5dzxh7xb7zul0h3y7o/Divide_the_Empire_Nov7.pdf?rlkey=mjunsvvn0rb5w4989yg50iy9f&st=v00ltdbl&e=1&dl=0)
+[Slides](https://www.dropbox.com/scl/fi/ojg5dzxh7xb7zul0h3y7o/Divide_the_Empire_Nov7.pdf?rlkey=mjunsvvn0rb5w4989yg50iy9f&st=v00ltdbl&e=1&dl=0)
 
 <details class="paper-abstract">
   <summary>Abstract</summary>

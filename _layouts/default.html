@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.url == '/' %}{{ site.title | escape }}{% else %}{{ page.title | escape }} | {{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ site.description | escape }}">
+    {% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
+    {% endif %}
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title | escape }}">
